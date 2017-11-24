@@ -1,0 +1,7 @@
+<div class="timer">
+  {{hours}}:{{minutes}}:{{seconds}}
+  <br>
+  <button (click)="toggleTimer()">{{isStarted ? 'Stop' : 'Start'}}</button>
+  <button (click)="waitTimer()">Wait</button>
+  <button (click)="resetTimer()">Reset</button>
+</div>
